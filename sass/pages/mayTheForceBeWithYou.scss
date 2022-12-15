@@ -1,0 +1,60 @@
+.containerBodyMayForce {
+  min-height: 100vh;
+  background-image: url(../../images/mayTheForceBeWithYou/backgroundImageMayTheForce.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainContainerMayForce {
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  font-size: 55px;
+  color: $background-color;
+  text-shadow: 5px 1px #ffe919;
+}
+.imgJedi {
+  width: 50vh;
+}
+
+@media (max-width: 991px) {
+  .congratulationsMessage {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainContainerMayForce {
+    padding-top: 10%;
+  }
+  .imgJedi {
+    width: 45vh;
+  }
+  .congratulationsMessage {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 630px) {
+  .mainContainerMayForce {
+    padding-top: 15%;
+  }
+  .imgJedi {
+    width: 40vh;
+  }
+  .congratulationsMessage {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 530px) {
+  .mainContainerMayForce {
+    display: inline-block;
+  }
+  .imgJedi {
+    width: 35vh;
+  }
+  .congratulationsMessage {
+    font-size: 20px;
+  }
+}
