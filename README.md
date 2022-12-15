@@ -1,6 +1,6 @@
 <h1>Olá 👋</h1>
-<h2>
-  Repositório Criado para resolver o desafio proposto pela One Bit Code no Curso
+< h2 >
+  Repositório Criado para resolver o desafio de Landing Pag proposto pela One Bit Code
   de Programador Full Stack JavaScript Profissional
 </h2>
 
